@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Chronicle Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/Fonts/chronicleDisplayFonts/chronicleDisplaySemibold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("~assets/Fonts/chronicleDisplayFonts/ChronicleDisplayBold.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/Fonts/gilroyFont/Gilroy-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("~assets/Fonts/gilroyFont/Gilroy-ExtraBold.otf") format("truetype");
+}
+
+body {
+  font-family: "Gilroy";
+  line-height: 32px;
+}
+
+h1 {
+  font-family: "Chronicle Display";
+  line-height: 100px;
+}
+
+h2 {
+  font-family: "Chronicle Display";
+  line-height: 76.8px;
+}
+
+// #app .container {
+//   max-width: 1760px;
+// }
+
+@media (max-width: 1680px) {
+  html {
+    font-size: 85% !important;
+  }
+}

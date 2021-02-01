@@ -1,18 +1,14 @@
-import UserIcon from "~/components/icons/UserIcon.vue";
-import GroupIcon from "~/components/icons/GroupIcon.vue";
-import LocationIcon from "~/components/icons/LocationIcon.vue";
+import AccountIcon from "~/components/icons/AccountIcon.vue";
+import Darr from "~/components/icons/Darr.vue";
 
 export default {
   icons: {
     values: {
-      user: {
-        component: UserIcon
+      account: {
+        component: AccountIcon
       },
-      group: {
-        component: GroupIcon
-      },
-      location: {
-        component: LocationIcon
+      downarr: {
+        component: Darr
       }
     }
   }
