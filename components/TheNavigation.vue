@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="transparent" elevation="0" app absolute>
+  <v-app-bar color="transparent" elevation="0" app absolute class="mt-10">
     <v-container style="max-width: 1760px">
       <v-row>
         <v-col cols="2"

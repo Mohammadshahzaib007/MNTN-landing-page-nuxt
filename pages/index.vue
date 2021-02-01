@@ -182,7 +182,7 @@
     </section>
 
     <!-- Section Fourth -->
-    <section style="margin-top: 12.5rem">
+    <section style="margin-top: 12.5rem; margin-bottom: 150px">
       <v-container style="max-width: 91.375rem">
         <v-row>
           <v-col
