@@ -11,24 +11,26 @@
             </h1>
           </v-toolbar-title></v-col
         >
-        <v-col cols="8" class="d-flex justify-center">
-          <v-btn
+        <v-col cols="8" class="d-flex justify-center align-center">
+          <nuxt-link
             text
-            class="text-capitalize mr-10"
+            to="#"
+            class="text-capitalize mr-10 g-link"
             v-for="navLink in navLinks"
             :key="navLink"
             style="font-size: 1.0625rem; font-weight: 600; line-height: 20.55px; color:white"
           >
             {{ navLink }}
-          </v-btn>
+          </nuxt-link>
         </v-col>
         <v-col cols="2" class="d-flex justify-end align-center">
           <v-icon size="24" color="white">$account</v-icon>
-          <v-btn
+          <nuxt-link
+          to="#"
             text
-            class="text-capitalize px-0 py-0 mx-0 my-0 ml-2"
+            class="text-capitalize px-0 py-0 mx-0 my-0 ml-2 g-link"
             style="font-size: 1.125rem; font-weight: 600; line-height: 21.76px; color:white"
-            >Account</v-btn
+            >Account</nuxt-link
           >
         </v-col>
       </v-row>

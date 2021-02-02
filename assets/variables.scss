@@ -4,5 +4,15 @@
 // $font-size-root: 20px;
 
 $body-font-family: "Gilroy", sans-serif;
-$title-font: "Gilroy", sans-serif;
 $heading-font-family: "Chronicle Display", sans-serif;
+
+$headings: (
+  "h1": (
+    "size": 5.5rem,
+    "line-height": 100px
+  ),
+  "h2": (
+    "size": 2.25rem,
+    "line-height": 76.8px
+  )
+);

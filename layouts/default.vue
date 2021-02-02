@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background-color: #000">
+  <v-app style="background-color: #0B1D26">
     <div id="bg"></div>
     <TheNavigation />
     <v-main>
