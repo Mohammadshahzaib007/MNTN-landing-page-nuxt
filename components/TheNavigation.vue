@@ -26,7 +26,7 @@
         <v-col cols="2" class="d-flex justify-end align-center">
           <v-icon size="24" color="white">$account</v-icon>
           <nuxt-link
-          to="#"
+            to="#"
             text
             class="text-capitalize px-0 py-0 mx-0 my-0 ml-2 g-link"
             style="font-size: 1.125rem; font-weight: 600; line-height: 21.76px; color:white"
@@ -39,13 +39,11 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      navLinks: ["Equipment", "About us", "Blog"]
-    };
-  }
-};
-</script>
+import { Component, Vue } from "nuxt-property-decorator";
 
-<style lang="scss" scoped></style>
+// class based components
+@Component
+export default class TheNavigation extends Vue {
+  navLinks = ["Equipment", "About us", "Blog"];
+}
+</script>

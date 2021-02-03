@@ -1,5 +1,5 @@
 <template>
-  <v-footer padless app height="280px" absolute color="transparent" >
+  <v-footer padless app height="280px" absolute color="transparent">
     <v-container style="max-width: 91.375rem" class="fill-height">
       <v-row class="fill-height">
         <v-col cols="6" class="d-flex flex-column ">
@@ -52,28 +52,28 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      footerLinks: [
-        {
-          heading: "More on The Blog",
-          links: [
-            "About MNTN",
-            "Contributors & Writers",
-            "Write For Us",
-            "Contact Us",
-            "Privacy Policy"
-          ]
-        },
-        {
-          heading: "More on MNTN",
-          links: ["The Team ?", "Jobs", "Press"]
-        }
+import { Component, Vue } from "nuxt-property-decorator";
+
+// class based components
+@Component
+export default class TheFooter extends Vue {
+  footerLinks = [
+    {
+      heading: "More on The Blog",
+      links: [
+        "About MNTN",
+        "Contributors & Writers",
+        "Write For Us",
+        "Contact Us",
+        "Privacy Policy"
       ]
-    };
-  }
-};
+    },
+    {
+      heading: "More on MNTN",
+      links: ["The Team ?", "Jobs", "Press"]
+    }
+  ];
+}
 </script>
 
 <style></style>
