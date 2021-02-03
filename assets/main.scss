@@ -60,9 +60,10 @@ h2 {
 
 .g-link {
   text-decoration: none;
+  cursor:pointer;
   border-bottom: 1px solid transparent;
   transition: all .3s;
   &:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
   }
 }
